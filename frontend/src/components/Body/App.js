@@ -1,14 +1,11 @@
-import "./App.css";
-import SavingPlaner from "./components/SavingPlaner";
+import React from "react";
 import HeroSlider from "./components/Body/HeroSlider";
-
 
 function App() {
   return (
-    <>
-      <SavingPlaner />
+    <div>
       <HeroSlider />
-    </>
+    </div>
   );
 }
 
